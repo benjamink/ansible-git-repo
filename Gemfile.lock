@@ -28,7 +28,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (3.1.1)
     safe_yaml (1.0.4)
-    test-kitchen (1.9.1)
+    test-kitchen (1.8.0)
       mixlib-install (~> 1.0, >= 1.0.4)
       mixlib-shellout (>= 1.2, < 3.0)
       net-scp (~> 1.1)
@@ -43,7 +43,7 @@ PLATFORMS
 DEPENDENCIES
   kitchen-ansible
   kitchen-vagrant
-  test-kitchen
+  test-kitchen (~> 1.8.0)
 
 BUNDLED WITH
    1.11.2
